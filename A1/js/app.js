@@ -30,7 +30,8 @@ function throwDice() {
       gameResult.parentElement.style.color = "red";
       aiWins++;
     } else {
-      gameResult.textContent = "DRAW🤝";
+      gameResult.textContent = "Draw🤝";
+      gameResult.parentElement.style.color = "yellow";
       drawGames++;
     }
     playerScoreText.textContent = playerWins;
